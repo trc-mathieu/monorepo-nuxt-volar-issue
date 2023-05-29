@@ -1,0 +1,21 @@
+{
+  "name": "@trc/app2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "nuxt:prepare": "nuxt prepare",
+    "debug:nuxt": "NODE_INSPECT_RESUME_ON_START=1 node inspect ./node_modules/nuxt/bin/nuxt.mjs dev"
+  },
+  "dependencies": {
+    "@nuxt/devtools": "^0.4.6",
+    "@vueuse/nuxt": "^9.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "nuxt": "^3.5.1"
+  }
+}

@@ -1,0 +1,1 @@
+<template>A module</template>
